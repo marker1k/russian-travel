@@ -1,0 +1,6 @@
+.lead__image-wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: 56px;
+}
