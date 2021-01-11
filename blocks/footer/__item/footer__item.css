@@ -1,0 +1,9 @@
+@media (max-width: 720px) {
+  .footer__item {
+    margin-top: 32px;
+  }
+
+  .footer__item:first-of-type {
+    margin-top: 0px;
+  }
+}

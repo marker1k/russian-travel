@@ -7,7 +7,7 @@
   flex-direction: column;
   background-image: url("../../../images/cover/cover-trains.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   min-height: 740px;
   justify-content: center;
@@ -28,7 +28,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 425px) {
   .cover {
     min-height: 200px;
   }
