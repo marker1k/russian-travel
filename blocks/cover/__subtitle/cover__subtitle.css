@@ -10,7 +10,8 @@
   margin-top: 32px;
   margin-bottom: 0;
   align-self: center;
-  z-index: 1;
+  position: relative;
+  z-index: 2;
 }
 
 @media (max-width: 425px) {

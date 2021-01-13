@@ -10,10 +10,11 @@
   line-height: 163%;
   color: #FFFFFF;
   max-width: 484px;
+  margin-top: 27px;
 }
 
-.place__paragraph:last-of-type {
-  margin-top: 27px;
+.place__paragraph:first-of-type {
+  margin-top: 0;
 }
 
 .place__paragraph-wrapper {
@@ -27,7 +28,14 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 163%;
+  }
+}
+
+@media (max-width: 730px) {
   .place__paragraph {
     margin-left: auto;
     margin-right: auto;
@@ -35,7 +43,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 500px) {
   .place__paragraph {
     max-width: 352px;
   }

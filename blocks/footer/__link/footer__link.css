@@ -11,6 +11,10 @@
 
 .footer__link:hover {
   opacity: 0.8;
+  transition: opacity .3s ease-out;
+  -moz-transition: opacity .3s ease-out;
+  -webkit-transition: opacity .3s ease-out;
+  -o-transition: opacity .3s ease-out;
 }
 
 @media (max-width: 720px) {

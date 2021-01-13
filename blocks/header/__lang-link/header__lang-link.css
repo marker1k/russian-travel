@@ -6,17 +6,14 @@
   line-height: 28px;
   color: #FFFFFF;
   text-decoration: none;
-  margin-right: 18px;
-  width: 30px;
-  height: 28px;
-}
-
-.header__lang-link:last-of-type {
-  margin-right: 0;
 }
 
 .header__lang-link:hover {
   opacity: 0.8;
+  transition: opacity .3s ease-out;
+  -moz-transition: opacity .3s ease-out;
+  -webkit-transition: opacity .3s ease-out;
+  -o-transition: opacity .3s ease-out;
 }
 
 @media (max-width: 320px) {

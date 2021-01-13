@@ -1,6 +1,17 @@
 .lead__image-wrapper {
   display: flex;
   flex-direction: column;
-  position: relative;
-  margin-top: 56px;
+  margin: 64px 0 0 0;
+}
+
+@media (max-width: 1024px) {
+  .lead__image-wrapper {
+    margin-top: 56px;
+  }
+}
+
+@media (max-width: 320px) {
+  .lead__image-wrapper {
+    margin-top: 40px;
+  }
 }
