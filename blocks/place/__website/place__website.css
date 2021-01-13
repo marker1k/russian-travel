@@ -5,10 +5,11 @@
 @media (max-width: 730px) {
   .place__website {
     margin-top: 32px;
+    align-self: flex-start;
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 320px) {
   .place__website {
     margin-left: 16px;
   }

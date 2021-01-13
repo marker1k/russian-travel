@@ -10,16 +10,3 @@
     margin-top: 32px;
   }
 }
-
-@media (max-width: 500px) {
-  .place__image {
-    width: 90%;
-    align-self: center;
-  }
-}
-
-@media (max-width: 500px) {
-  .place__image {
-    width: 100%;
-  }
-}
