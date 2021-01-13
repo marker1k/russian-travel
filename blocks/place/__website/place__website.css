@@ -2,6 +2,12 @@
   align-self: end;
 }
 
+@media (max-width: 730px) {
+  .place__website {
+    margin-top: 32px;
+  }
+}
+
 @media (max-width: 500px) {
   .place__website {
     margin-left: 16px;

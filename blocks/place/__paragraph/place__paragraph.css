@@ -35,6 +35,9 @@
     margin-right: auto;
     width: 90%;
   }
+  .place__paragraph:first-of-type {
+    margin-top: 32px;
+  }
 }
 
 @media (max-width: 500px) {

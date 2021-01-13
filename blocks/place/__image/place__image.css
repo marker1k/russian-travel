@@ -5,6 +5,12 @@
   object-fit: contain;
 }
 
+@media (max-width: 730px) {
+  .place__image {
+    margin-top: 32px;
+  }
+}
+
 @media (max-width: 500px) {
   .place__image {
     width: 90%;
